@@ -6,9 +6,9 @@
 #define COMPILED __DATE__ " " __TIME__
 #define CURRENT_FIRMWARE_TITLE "Damodar"
 #define CURRENT_FIRMWARE_VERSION "0.0.1"
-#define NIM 110010129
-#define NAMA_LENGKAP "I Wayan Aditya Suranata"
-#define NAMA_KELOMPOK "Paprika"
+#define NIM 42330082
+#define NAMA_LENGKAP "Gede Agus Indra Wardana"
+#define NAMA_KELOMPOK "404 Not Found"
 
 #define USE_WIFI_OTA
 
@@ -21,7 +21,7 @@
 #define USE_IOT
 #ifdef USE_IOT
     #define THINGSBOARD_ENABLE_STREAM_UTILS true
-    #define USE_IOT_SECURE
+    //define USE_IOT_SECURE
     #define USE_IOT_OTA
     const uint8_t IOT_FIRMWARE_FAILURE_RETRIES = 10;
     const uint16_t IOT_FIRMWARE_PACKET_SIZE = 4096;
@@ -66,7 +66,7 @@ static constexpr char tbAddr[] PROGMEM = "prita.undiknas.ac.id";
 static constexpr char binURL[] PROGMEM = "https://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #else
 static const int tbPort = 1883;
-static constexpr char tbAddr[] PROGMEM = "udawa.local";
+static constexpr char tbAddr[] PROGMEM = "broker.hivemq.com";
 static constexpr char binURL[] PROGMEM = "http://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #endif
 static constexpr char model[] PROGMEM = "Gadadar4Ch";
