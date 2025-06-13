@@ -66,7 +66,7 @@ static constexpr char tbAddr[] PROGMEM = "prita.undiknas.ac.id";
 static constexpr char binURL[] PROGMEM = "https://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #else
 static const int tbPort = 1883;
-static constexpr char tbAddr[] PROGMEM = "broker.hivemq.com";
+static constexpr char tbAddr[] PROGMEM = "192.168.8.2";
 static constexpr char binURL[] PROGMEM = "http://udawa.or.id/cdn/firmware/gadadar4ch.bin";
 #endif
 static constexpr char model[] PROGMEM = "Gadadar4Ch";

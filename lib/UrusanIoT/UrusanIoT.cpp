@@ -9,7 +9,7 @@
 /// @param brokerPassword
 UrusanIoT::UrusanIoT(const char* broker, const int port, const char* clientId,
     const char* brokerUsername, const char* brokerPassword) : _broker(broker),
-     _port(port), _clientId(clientId), _brokerUsername(brokerUsername), _brokerPassword(brokerPassword) {
+     _port(port), _clientId(clientId), _brokerUsername(brokerUsername), _brokerPassword(brokerPassword), client(2048) {
    
 }
 
